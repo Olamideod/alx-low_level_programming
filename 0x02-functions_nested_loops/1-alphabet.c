@@ -4,7 +4,7 @@
 /**
 * main - starting point
 *
-* Description: A program that prints _putchar, followed by a new line
+* Description: printing _putchar, followed by a new line
 *
 * Return: Success
 */
@@ -20,3 +20,4 @@ _putchar('\n');
 
 return (0);
 }
+
