@@ -1,20 +1,22 @@
-
-#include"main.h"
+#include "main.h"
 
 /**
-* add - add both integers
+* print_alphabet_x10 
 *
-* _a: first input
-* _b: second input
-*
-* Return: sum of a & b
+* Return - 0
 */
-
-int add(int a, int b)
+void print_alphabet_x10(void)
 {
-int sum = a + b;
-
-return (sum);
+int b = 0;
+while (b < 10)
+{
+char a = 'a';
+while (a <= 'z')
+{
+_putchar(a);
+a++;
 }
-
-
+_putchar('\n');
+b++;
+}
+}
