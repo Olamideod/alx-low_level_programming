@@ -1,5 +1,8 @@
+#include "main.h"
+
 /**
-* Description: _prints the sign of a number
+* Main: Start point
+* Description: A function that prints the sign of a number.
 * @n: number being tested
 * Return: Always 0.
 */
@@ -23,4 +26,5 @@ return (-1);
 }
 return (0);
 }
+
 
